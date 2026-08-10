@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "chiragblock" {
   name     = "chirag1source"
   location = "East US"
 }
+
+resource "azurerm_resource_group" "chiragblock" {
+  name     = "chirag2source"
+  location = "East US"
+}
